@@ -30,8 +30,8 @@ jobs:
     - name: Add Metrics to Job Summary
       run: |
         echo "## Lab 2 - Model Evaluation Summary" >> $GITHUB_STEP_SUMMARY
-        echo "Name: Kodavati Vivek" >> $GITHUB_STEP_SUMMARY
-        echo "Roll Number: 2022BCS0202" >> $GITHUB_STEP_SUMMARY
+        echo "Name: M.SAi Keerthi" >> $GITHUB_STEP_SUMMARY
+        echo "Roll Number: 2022BCS0181" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "### Evaluation Metrics" >> $GITHUB_STEP_SUMMARY
         cat output/results/metrics.json >> $GITHUB_STEP_SUMMARY
